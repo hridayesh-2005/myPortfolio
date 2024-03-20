@@ -1,0 +1,83 @@
+body {
+    background-color: #50d8d7;
+    background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+    background-attachment: fixed;
+  
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient();
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19.2px;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #923993;
+  }
+
+  /*vsagfsd*/
+
+  .container {
+    width: 100vw;
+    text-align: center;
+  }
+  .container button{
+    background-color: #50d8d7;
+    background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+    background-attachment: fixed;
+    border: 5px solid #923993;
+}
+.container button:hover {
+    border: 10px solid purple;
+  }
+  .container button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .three {
+    text-align:center;
+    /* height:auto; */
+  }
+  .three h1,h2{
+    color:white;
+    font-weight: bold;
+  }
+  .three .span {
+    color:black;
+    font-weight: bold;
+  }
+  .three svg {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: white;
+  }
+  svg {
+    fill: black;
+  }
+  svg:hover {
+    fill: purple;
+    width: 1.5em;
+    height: 1.5em;
+    transition: all .4s ease 0s!important;
+    
+  }

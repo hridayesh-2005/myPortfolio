@@ -1,0 +1,149 @@
+ body {
+        background-color: #50d8d7;
+        background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+        
+        background-attachment: fixed;
+
+    }
+.about {
+        float: right;
+        height: 500px;
+        width: 500px;
+}
+.about:hover {
+  height: 600px;
+  width: 600px;
+  transition: 2s;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient();
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19.2px;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #923993;
+  }
+  .knowMe {
+    font-size: larger;
+    text-align: center;
+
+  }
+  .description {
+    color: white;
+    line-height: 1.5;
+  }
+  .skillset {
+    display: inline-block;
+    width: 100vw;
+  }
+  .c {
+    width: 350px;
+  }
+  .skillset .skill {
+    color:white;
+    font-weight: bold;
+    font-size: 6em;
+    border: 3px dotted;
+    margin: 0;
+    padding: 0 15px;
+    border-radius: 1.5px;
+    margin-left: 0px;
+  }
+  .skillset .skill:hover {
+    border: 3px solid rgba(200, 137, 230);
+    font-size: 10em;
+    transition: all 1s;
+  }
+  .three {
+    text-align:center;
+    /* height:auto; */
+  }
+  .three h1,h2{
+    color:white;
+    font-weight: bold;
+  }
+  .three .span {
+    color:black;
+    font-weight: bold;
+  }
+  .three svg {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: white;
+  }
+  svg {
+    fill: black;
+  }
+  svg:hover {
+    fill: purple;
+    width: 1.5em;
+    height: 1.5em;
+    transition: all .4s ease 0s!important;
+    
+  }
+ .education:hover {
+    color: white;
+ }
+ table {
+    font-size:xx-large;
+    margin-left: 350px;
+    border: 3px solid white;
+ }
+ table tr,th,td {
+  padding: 10px;
+  border-collapse: collapse;
+ }
+ table td:hover {
+  padding: 50px;
+  transition: all 2s;
+ }
+ table th:hover {
+  padding: 50px;
+  transition: all 2s;
+ }
+ .prof{
+  position: relative;
+ }
+ .prof::before {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  width: 30%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  /* background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%);
+   */
+   background-image: linear-gradient(316deg, #923993 50%,#50d8d7 0% );
+   background-attachment: fixed;
+   transform: translateX(520px);
+ }
+ video {
+  transition: ease-out 1.5s;
+ }
+ video:hover {
+  height: 400px;
+  width: 800px;
+  transform: translateX(-100px);
+  transition: 3s;
+ }
